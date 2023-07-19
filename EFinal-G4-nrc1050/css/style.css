@@ -239,7 +239,7 @@ width: 5%;
     text-decoration: none;
 }
 #barra-nosotros{
-background-image: url("img/2nosotros.jpg");
+background-image: url("../img/2nosotros.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -293,7 +293,7 @@ font-size: 90px;
 }
 
 #barra-portafolio{
-    background-image: url("img/4portafolio.jpg");
+    background-image: url("../img/4portafolio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -320,7 +320,7 @@ font-size: 90px;
 }
 
 #barra-contacto{
-    background-image: url("img/5contacto.jpg");
+    background-image: url("../img/5contacto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
