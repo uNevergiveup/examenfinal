@@ -65,8 +65,6 @@ h2::after {
     /* Barrita */
     width: 100px; /* ancho */
     height: 2px; /* grosor */
-    background-color: var(--color-azul);
-
     position: absolute;
     bottom: 0px;
     /* left: 0px; */
@@ -138,7 +136,7 @@ width: 5%;
     }
     
     #cabecera {
-    background-color: var(--color-blanco); /* Color de fondo */
+    background-color: #f8f9fb; /* Color de fondo */
     color: var(--color-azul); /* Color del texto */
     padding-top: 0px;
     padding-bottom: 0px;
@@ -163,12 +161,10 @@ width: 5%;
         color: var(--color-verdeoscuro)
     } 
 
-    #cabecera nav{
-        padding-left: 400px;
-    }
+    
 
 #portada {
-    background-image: url("../img/portada1.jpg");
+    background-image: url("../img/logo/portada1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
@@ -180,9 +176,21 @@ width: 5%;
 
 #nosotros{
     text-align: center;
-    background-image: url(../img/fondo1.jpg);
+    background-image: url(../img/logo/fondo1.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+#productos{
+    text-align: center;
+    background-image: url(../img/logo/fondo1.jpg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#productos h1 {
+    font-family: var(--fuente-titulos);
+    font-size: 90px;
+    color: var(--color-naranjaclaro);
 }
 
 #nosotros img {
@@ -239,7 +247,7 @@ width: 5%;
     text-decoration: none;
 }
 #barra-nosotros{
-background-image: url("../img/2nosotros.jpg");
+background-image: url("../img/logo/2nosotros.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -266,7 +274,7 @@ font-size: 90px;
 }
 
 #barra-servicios{
-    background-image: url("img/3servicios.jpg");
+    background-image: url("../img/logo/3servicios.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -293,7 +301,7 @@ font-size: 90px;
 }
 
 #barra-portafolio{
-    background-image: url("../img/4portafolio.jpg");
+    background-image: url("../img/logo/4portafolio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -320,7 +328,7 @@ font-size: 90px;
 }
 
 #barra-contacto{
-    background-image: url("../img/5contacto.jpg");
+    background-image: url("../img/logo/5contacto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -483,3 +491,24 @@ font-size: 90px;
     transition: all 0.5s ease-in-out;
 }
 
+.fondo {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/fondo2.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #f3f365;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	color: #F3F3F3;
+}

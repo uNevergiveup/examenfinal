@@ -1,94 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORGANIC-Ecotienda</title>
-    
-<!-- Enlazar con la libreria CSS de Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-<!-- Enlazar el archivo HTML con una hoja de estilos externa CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-       
-    <link rel="shortcut icon" href="../img/1.Icono.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ORGANIC ECOTIENDA</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
 
-<!-- Enlazar Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--CSS Magnific-->
+	<link rel="stylesheet" href="../vendor/magnific-popup/magnific-popup.css">
 
+	<!-- CSS del tema -->
+	<link rel="stylesheet" href="../css/creative.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	
+	<!--Font Awesome-->
+	<link
+	rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+    <!-- Animate CSS -->
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
+
 <body>
 
- <!-- Barra superior -->
- <section id="barra-superior">
-    <div class="contenedor">
-        <div class="fila">
-            <div>
-                <span>
-                    <i class="fa-solid fa-location-dot"></i> Calle Bernard Balaguer 145 - Chosica
-                </span>
-                <span>
-                    <i class="fa-regular fa-clock"></i> Lun-Sab 08:00-20:00
-                </span>
-            </div>
-            <div class="bloque2">
-                <span>
-                    <a>
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </span>
-        </div> <!-- fila -->
-    </div> <!-- contenedor --> 
-</section>
-<header id="cabecera" class="espaciado">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="logo">
-        <a class="navbar-brand" href="index.php">
-            <img src="../img/1.Logo.png" width="200" height="120" alt="">
-        </a>   
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul  class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.php">Inicio<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="nosotros.php">Nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="servicios.php">Servicios</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="portafolio.php">Portafolio</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="contacto.php">Contacto</a>
-        </li>
-      </ul>
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <img src="../img/logo/1.Logo.png" width="200"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.php">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="nosotros.php">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="productos.php">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="portafolio.php">PORTAFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contacto.php">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="compra.php">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="glyphicon glyphicon-triangle-right"></span>
+          </a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
   </nav>
-</header>
-<section id="barra-nosotros" class="espaciado">
+
+
+  <!--CONTENIDO-->
+  <section id="barra-nosotros" class="espaciado">
     <div class="contenedor">
         <h1>Nosotros</h1>
         <p>
@@ -101,24 +80,60 @@
 
 
 
-    <div id="pie" class="espaciado">
-        <div class="contenedor">
-            <nav class="pie barra">
-                <div class="pie-logo">
-                    <img src="../img/1.Logo.png" alt="">
-                </div>
-                <ul class="pie-opciones">
-                    <div class="pie-items">
-                        <li><a href="index.php">Inicio</a></li>
-                        <li><a href="nosotros.php">Nosotros</a></li>
-                        <li><a href="servicios.php">Servicios</a></li>
-                        <li><a href="portafolio.php">Portafolio</a></li>
-                        <li><a href="contacto.php">Contacto</a></li>
-                    </div>
-                </ul>
-            </nav>
-            <h5>2023 Organic - Ecotienda</h5>
+
+
+
+  <!-- footer -->
+  <section class="mbr-section mbr-section-md-padding mbr-footer footer1" id="contacts1-s" style="background-color: #F3F3F3;  color: #245501; padding-top: 30px; padding-bottom:30px;" >
+    
+    <div class="container align-items-center">
+        <div class="row">
+            <div class="mbr-footer-content col-xs-12 col-sm-2 me-2">
+                <div><img style="height: 200px; padding-top: 10px; padding-bottom:10px;" src="../img/logo/1.Logo.png"></div>
+            </div>
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong></strong>
+                    <br><br><br></p>
+            </div>
+            
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong>Contáctanos</strong>
+                    <br><br>Email: reservas@Luffy.com<br>Teléfonos: 51 (1) 234-2345</p>
+            </div>
+            
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong>Únete al equipo LUFFY</strong><br><br>
+                Email: equipo@Luffy.com</p>
+            </div>
+            
         </div>
     </div>
+</section>
+
+
+
+
+
+<!--wow-->
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!--Bootsrapp JavaScrpr-->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--Plugin JAVASCRIPT-->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!--Creative JS-->
+<script src="../creativejs/creative.min.js"></script>
+
+<script src="../js/jquery-3.2.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>

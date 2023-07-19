@@ -1,107 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORGANIC-Ecotienda</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ORGANIC ECOTIENDA</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
 
-    <!-- Enlazar con la libreria CSS de Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<!--CSS Magnific-->
+	<link rel="stylesheet" href="../vendor/magnific-popup/magnific-popup.css">
 
-    <!-- Enlazar el archivo HTML con una hoja de estilos externa CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+	<!-- CSS del tema -->
+	<link rel="stylesheet" href="../css/creative.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	
+	<!--Font Awesome-->
+	<link
+	rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-    <link rel="shortcut icon" href="../img/1.Icono.png" type="image/x-icon">
 
-    <!-- Enlazar Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Animate CSS -->
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
-<body>
-<!-- Barra superior -->
-<section id="barra-superior">
-    <div class="contenedor">
-        <div class="fila">
-            <div>
-                <span>
-                    <i class="fa-solid fa-location-dot"></i> Calle Bernard Balaguer 145 - Chosica
-                </span>
-                <span>
-                    <i class="fa-regular fa-clock"></i> Lun-Sab 08:00-20:00
-                </span>
-            </div>
-            <div class="bloque2">
-                <span>
-                    <a>
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </span>
-                <span>
-                    <a>
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </span>
-            </div> <!-- fila -->
-        </div> <!-- contenedor -->
-</section>
-<header id="cabecera" class="espaciado">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="logo">
-            <a class="navbar-brand" href="index.php">
-                <img src="../img/1.Logo.png" width="200" height="120" alt="">
-            </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.php">Inicio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="nosotros.php">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.php">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portafolio.php">Portafolio</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">Contacto</a>
-                </li>
-            </ul>
+<body>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <img src="../img/logo/1.Logo.png" width="200"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.php">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="nosotros.php">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="productos.php">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="portafolio.php">PORTAFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contacto.php">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="compra.php">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="glyphicon glyphicon-triangle-right"></span>
+          </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Encabezado -->
+<header class="masthead" id="about">
+
+
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center animate__animated animate__backInLeft">
+            <div class="col-lg-10 align-self-end">
+                <h1 class="text-uppercase font-weight-bold" style="color: #ffffff">
+                ¡Bienvenido a Organic Ecotienda! 
+                </h1>
+                <hr class="dividir m-4">
+            </div>
+
+            <div class="col-lg-8 align-self-baseline" style="color: white">
+                <p>Descubre lo mejor de la naturaleza en cada bocado</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color: #245501; color: white" href="#nosotros">Conócenos</a>
+            </div>
         </div>
-    </nav>
+    </div>
+
 </header>
 
-<section id="portada">
-    <div class="contenedor">
-        <p class="texto_enorme">¡Bienvenido a Organic Ecotienda<br>
-            <span class="texto_resaltado">Descubre lo mejor de la naturaleza</span><br><span class="texto_resaltado">en cada bocado</span>
-        </p>
-    </div>
-</section>
+<!--sobre nosotros-->
 
-<section id="nosotros">
-    <div class="contenedor">
-        <h1>Nosotros</h1><br>
+<section class="nosotros" id="nosotros" >
+    <div class="container">
+        <h1 >Nosotros</h1><br>
         <p>En Organic Ecotienda, creemos en una forma de vida más saludable y sostenible. </p>
         <img src="../img/flecha (1).png" alt="">
         <p>Nuestra pasión por los alimentos orgánicos y el respeto por la naturaleza nos impulsaron a fundar esta
@@ -109,7 +100,7 @@
             ecológicas para ofrecerte los productos más frescos y nutritivos. Cada compra que haces en nuestra tienda es
             una pequeña contribución a un planeta más verde y próspero.</p>
         <div class="servicio boton">
-            <a href="nosotros.php" class="btn-nosotros">MAS SOBRE NOSOTROS <span></span></a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color: #245501; color: white" href="nosotros.php">Más sobre nosotros</a>
         </div>
     </div>
 </section>
@@ -143,16 +134,16 @@
                 <div class="caja-overflow">
                     <h3>Asesoria Nutricional</h3>
                     <img src="../img/servicios4.jpg" alt="" class="img_ajustarancho">
-                    <p>Nuestro equipo de expertos en nutrición está aquí para ayudarte en tu camino hacia una
-                        alimentación más saludable.</p>
+                    <p>Nuestro equipo de expertos en nutrición te ayudarán a comer más sano</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<div id="portafolio" class="text-center">
-    <div class="contenedor">
+
+<section id="portafolio" class="text-center" style="padding-bottom: 80px;">
+    <div class="container">
         <div class="titulo-port">
             <h2>Te Ofrecemos</h2>
             <h5>Una amplia variedad de alimentos orgánicos</h5>
@@ -161,7 +152,7 @@
         <div class="row service-item-margin">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zero-padding text-center services-list">
                 <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 zero-padding">
-                    <img src="../img/icono1.png" alt="">
+                    <img src="../img/logo/icono1.png" alt="">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 zero-padding service-item-title">
 
@@ -171,14 +162,14 @@
                         seleccionadas. Desde manzanas crujientes hasta jugosas naranjas, nuestras frutas están llenas de
                         sabor y nutrientes, perfectas para un snack saludable o para complementar tus recetas
                         favoritas.</p>
-                    <a href="portafolio.php" class="elrumi-btn"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
+                    <a href="compra.php" class="btn btn-light btn-xl js-scroll-trigger"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
                                 class="glyphicon glyphicon-triangle-right"></span></a>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 second-box text-center services-list">
                 <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 zero-padding">
-                    <img src="../img/icono2.png" alt="">
+                    <img src="../img/logo/icono2.png" alt="">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 zero-padding service-item-title">
                     <h3>Verduras<br>crujientes</h3>
@@ -187,14 +178,14 @@
                         comprometidos con prácticas ecológicas. Descubre una amplia variedad de opciones frescas, desde
                         tiernos espárragos hasta coloridas zanahorias, para llevar a tu mesa lo mejor de la
                         temporada.</p>
-                    <a href="portafolio.php" class="elrumi-btn"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
+                    <a href="compra.php" class="btn btn-light btn-xl js-scroll-trigger"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
                                 class="glyphicon glyphicon-triangle-right"></span></a>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zero-padding next-row text-center services-list">
                 <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 zero-padding">
-                    <img src="../img/icono4.png" alt="">
+                    <img src="../img/logo/icono4.png" alt="">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 zero-padding service-item-title">
                     <h3>Panes <br> recién horneados</h3>
@@ -202,14 +193,14 @@
                     <p>El aroma del pan fresco llenará tu hogar cuando pruebes nuestras opciones de panes orgánicos.
                         Hechos con ingredientes naturales y sin aditivos, nuestros panes son perfectos para acompañar
                         tus comidas o preparar deliciosos sándwiches.</p>
-                    <a href="portafolio.php" class="elrumi-btn"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
+                    <a href="compra.php" class="btn btn-light btn-xl js-scroll-trigger"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
                                 class="glyphicon glyphicon-triangle-right"></span></a>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 second-box next-row text-center services-list">
                 <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 zero-padding">
-                    <img src="../img/icono5.png" alt="">
+                    <img src="../img/logo/icono5.png" alt="">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 zero-padding service-item-title">
                     <h3>Huevos de gallinas <br>criadas en libertad</h3>
@@ -217,34 +208,413 @@
                     <p>Nuestros huevos orgánicos provienen de gallinas felices y saludables, criadas en ambientes
                         abiertos y naturales. Ricos en proteínas y nutrientes, estos huevos son una elección consciente
                         para un desayuno nutritivo o para enriquecer tus recetas.</p>
-                    <a href="portafolio.php" class="elrumi-btn"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
+                    <a href="compra.php" class="btn btn-light btn-xl js-scroll-trigger"><i class="fa-solid fa-cart-shopping"></i>Comprar<span
                                 class="glyphicon glyphicon-triangle-right"></span></a>
                 </div>
             </div>
 
         </div>
     </div>
-</div>
+</section>
 
-<div id="pie" class="espaciado" class="text-center">
-    <div class="contenedor">
-        <nav class="pie barra">
-            <div class="pie-logo">
-                <img src="../img/1.Logo.png" alt="">
-            </div>
-            <ul class="pie-opciones">
-                <div class="pie-items">
-                    <li><a href="index.php">Inicio</a></li>
-                    <li><a href="nosotros.php">Nosotros</a></li>
-                    <li><a href="servicios.php">Servicios</a></li>
-                    <li><a href="portafolio.php">Portafolio</a></li>
-                    <li><a href="contacto.php">Contacto</a></li>
+
+
+
+
+
+  <!-- INICIO DEL SLIDER -->
+
+<div class="row">
+    <div class="col">
+        
+        <div class="carousel slide" id="slideshow" data-ride="carousel">
+            
+        <!-- INDICADORES -->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+
+        </ol>
+
+
+        <!-- SLIDES -->
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="../img/slide1.jpeg" class="d-block w-100">
                 </div>
-            </ul>
-        </nav>
-        <h5>2023 Organic - Ecotienda</h5>
+
+                <div class="carousel-item">
+                    <img src="../img/slide2.jpg" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../img/slide3.jpg" class="d-block w-100">
+                </div>
+            </div>
+
+        <!-- Controles -->
+            <a href="#slideshow" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>	
+            </a>
+
+            <a href="#slideshow" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>	
+            </a>
+
+        </div>
+
+
     </div>
 </div>
 
+<!-- FIN DEL SLIDE -->
+
+
+
+<!-- SECCION PRODUCTOS -->
+  
+<section class="page-section" id="productos">
+    <div class="container">
+
+      <h2 class="text-center mt-0">Nuestros Productos</h2>
+      <hr class="divider my-4">
+      
+      <div class="row pb-4">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card mt-4">
+                    <img class="card-img-top" src="../img/h1.jpg" alt="">
+    
+                    <div class="card-body">
+                        <h4 class="card-title">Helado de plátano</h4>
+                        <p>S/ 16.00 soles</p>
+                        <a href="#" class="btn btn-sm btn-primary" style="color: black;">Comprar</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card mt-4">
+                    <img class="card-img-top" src="../img/h2.jpg" alt="">
+    
+                    <div class="card-body">
+                        <h4 class="card-title">Helado de fresa</h4>
+                        <p>S/ 14.00 soles</p>
+                        <a href="#" class="btn btn-sm btn-primary" style="color: black;" >Comprar</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card mt-4">
+                    <img class="card-img-top" src="../img/h3.jpg" alt="">
+    
+                    <div class="card-body">
+                        <h4 class="card-title">Helado de Lúcuma</h4>
+                        <p>S/ 16.00 soles</p>
+                        <a href="#" class="btn btn-sm btn-primary" style="color: black;">Comprar</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card mt-4">
+                    <img class="card-img-top" src="../img/h4.jpg" alt="">
+    
+                    <div class="card-body">
+                        <h4 class="card-title">Helado de coco</h4>
+                        <p>S/ 18.00 soles</p>
+                        <a href="#" class="btn btn-sm btn-primary" style="color: black;" >Comprar</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!--SECCION FONDO MOVIBLE-->
+<section class="fondo">
+	
+</section>
+
+<!-- SECCION SERVICIOS -->
+  
+<section class="page-section" id="servicios">
+    <div class="container">
+
+      <h2 class="text-center mt-0">Nuestros servicios</h2>
+      <hr class="divider my-4">
+      
+      <div class="row">
+
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mt-5">
+            <i class="fa-4x bi bi-inbox-fill mb-4 " style="color: #f7f76f;"></i>
+            <h3 class="h4 mb-2">Catering</h3>
+            <p class="text-muted mb-0">Puedes consultar acerca de nuestros servicios de Catering</p>
+            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal">
+                Saber +
+            </button>
+            <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">CATERING</h5>
+                            <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Eventos en los que participamos</h3>
+                            <br>
+                            <p>Baby Showers</p>
+                            <p>Bautizos</p>
+                            <p>Cumpleaños</p>
+                            <p>Bodas</p>
+                            <p>Aniversarios</p>
+                            <p>Fiestas temáticas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>          
+        </div>
+
+      <div class="col-md-6 col-lg-3 text-center">
+          <div class="mt-5">
+            <i class="fa-4x bi bi-megaphone-fill" style="color: #f7f76f;"></i>
+          
+            <h3 class="h4 mb-2">Eventos</h3>
+            <p class="text-muted mb-0">Te llevamos los más ricos helados a cualquier celebración</p>
+            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal1">
+                Saber +
+            </button>
+            <div class="modal fade" id="fm-modal1" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">EVENTOS</h5>
+                            <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Zonas de Eventos</h3>
+                            <br>
+                            <p>Zona Lima Sur</p>
+                            <p>Zona Lima Norte</p>
+                            <p>Zona Lima Centro</p>
+                            <p>Zona Lima Este</p>
+                            <p>Zona Lima Oeste</p>
+                            <p>Otros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>          
+        </div>
+
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mt-5">
+            <i class="fa-4x bi bi-shop mb-4 " style="color: #f7f76f;"></i>
+            <h3 class="h4 mb-2">Suministros</h3>
+            <p class="text-muted mb-0">Puede consultar por nuestros suministros semanales y mensuales</p>
+            
+            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal2">
+                Saber +
+            </button>
+            <div class="modal fade" id="fm-modal2" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">SUMINISTROS</h5>
+                            <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Suministramos a...</h3>
+                            <br>
+                            <p>Pequeños emprendimientos</p>
+                            <p>Negocios de bodegas</p>
+                            <p>Tiendas departamentales</p>
+                            <p>Otros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>          
+        </div>
+
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mt-5">
+            <i class=" fa-4x bi bi-telephone-inbound-fill mb-4" style="color: #f7f76f;"></i>
+        
+            <h3 class="h4 mb-2">Reservas</h3>
+            <p class="text-muted mb-0">Pueden reservar almuerzos y cenas corporaivas con nosotros</p>
+            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal3">
+                Saber +
+            </button>
+            <div class="modal fade" id="fm-modal3" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">RESERVAS</h5>
+                            <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Reservaciones</h3>
+                            <br>
+                            <p>Aceptamos reservaciones con 15 días de anticipación si son más de 15 personas. En caso sean menos de 15 personas pueden reservar hasta con 7 días de anicipación</p>
+                            <p>Sedes de reserva: Av. Benavides y Jesus María</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>          
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+ <!-- SECCION PORTAFOLIO -->
+
+ <section id="portfolio">
+    <div class="container-fluid p-0">
+      
+      <div class="row no-gutters">
+        
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/1.jpeg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/1.jpeg" alt="">
+            <div class="portfolio-box-caption" style="color: black;" >
+              <div class="project-category" >HELADOS CON NUECES</div>
+              <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption" style="color: black;" >
+                <div class="project-category">HELADOS CON PASAS</div>
+                <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption" style="color: black;">
+                <div class="project-category">HELADOS CON ALGARROBINA</div>
+                <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/4.jpeg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/4.jpeg" alt="">
+            <div class="portfolio-box-caption" style="color: black;">
+                <div class="project-category"  >HELADOS CON PECANAS</div>
+                <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/5.jpeg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/5.jpeg" alt="">
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category"  >HELADOS CON CHOCOLATE</div>
+                <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-box" href="../img/portfolio/fullsize/6.jpeg">
+            <img class="img-fluid" src="../img/portfolio/thumbnails/6.jpeg" alt="">
+            <div class="portfolio-box-caption" style="color: black;">
+                <div class="project-category"  >HELADOS CON GOMITAS</div>
+                <div class="project-name">Revise nuestros sabores disponibles</div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <section class="mbr-section mbr-section-md-padding mbr-footer footer1" id="contacts1-s" style="background-color: #F3F3F3;  color: #245501; padding-top: 30px; padding-bottom:30px;" >
+    
+    <div class="container align-items-center">
+        <div class="row">
+            <div class="mbr-footer-content col-xs-12 col-sm-2 me-2">
+                <div><img style="height: 200px; padding-top: 10px; padding-bottom:10px;" src="../img/logo/1.Logo.png"></div>
+            </div>
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong></strong>
+                    <br><br><br></p>
+            </div>
+            
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong>Contáctanos</strong>
+                    <br><br>Email: reservas@Luffy.com<br>Teléfonos: 51 (1) 234-2345</p>
+            </div>
+            
+            <div class="mbr-footer-content col-xs-12 col-md-3" style="height: 150px; padding-top: 50px">
+                <p><strong>Únete al equipo LUFFY</strong><br><br>
+                Email: equipo@Luffy.com</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--wow-->
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!--Bootsrapp JavaScrpr-->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--Plugin JAVASCRIPT-->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!--Creative JS-->
+<script src="../creativejs/creative.min.js"></script>
+
+<script src="../js/jquery-3.2.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>

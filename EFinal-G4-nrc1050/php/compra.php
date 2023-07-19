@@ -32,7 +32,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="../img/logo/1.Logo.png" width="200" alt="img"></a>
+      <img src="../img/logo/1.Logo.png" width="200"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -79,18 +79,18 @@
 
 
 
-
 <!--CONTENIDO-->
-<section id="barra-contacto" class="espaciado">
+<section id="barra-servicios" class="espaciado">
         <div class="contenedor">
-            <h1>Contacto</h1>
+            <h1>Compra ahora</h1>
             <p>
                 <i class="fa-solid fa-location-dot"></i>
     
-                <a href="index.php">Inicio</a>  |  Contacto
+                <a href="index.php">Inicio</a>  |  Compra ahora
             </p>
         </div> <!-- contenedor -->
-    </section> <!-- barra-contacto -->
+    </section> <!-- barra-servicios -->
+
 
 
 
@@ -151,6 +151,9 @@
 </body>
 
 </html>
+
+
+
 
 
 
