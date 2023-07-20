@@ -79,6 +79,55 @@
         </div> <!-- contenedor -->
     </section> <!-- barra-servicios -->
 
+<div class="container">
+    <h1 class="text-center" style="background-color: greenyellow; color: white; border-radius: 5px; margin-top: 20px">
+        LISTADO DE PRODUCTOS
+    </h1>
+    <br>
+    <div class="container">
+        <table class="table table-hover">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col" style="width: 20%;">Nombre</th>
+                <th scope="col" style="width: 50%">Descripcion</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Acciones</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            require("config/connection.php");
+            $sql = $connection->query(
+                "SELECT P.idProducto, nombreProducto, detallesProducto, precioProducto
+        FROM producto P"
+            );
+            while ($resultado = $sql->fetch_assoc()) {
+                ?>
+                <tr>
+                    <th scope="row"><?php echo $resultado['idProducto'] ?></th>
+                    <th scope="row"><?php echo $resultado['nombreProducto'] ?></th>
+                    <th scope="row"><?php echo $resultado['detallesProducto'] ?></th>
+                    <th scope="row">S/<?php echo $resultado['precioProducto'] ?>.00</th>
+                    <th>
+                        <a href="forms/edit_products.php?id=<?php echo $resultado['idProducto'] ?>"
+                           class="btn btn-success">Editar</a>
+                        <a href="CRUD/delete_data.php?id=<?php echo $resultado['idProducto'] ?>"
+                           class="btn btn-danger">Eliminar</a>
+                    </th>
+
+                </tr>
+                <?php
+            }
+            ?>
+            </tbody>
+        </table>
+        <div class="container">
+            <a href="forms/add_products.php" class="btn btn-primary">Agregar producto</a>
+        </div>
+    </div>
+</div>
+
 
 
 
