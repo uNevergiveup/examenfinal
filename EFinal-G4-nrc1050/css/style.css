@@ -65,6 +65,8 @@ h2::after {
     /* Barrita */
     width: 100px; /* ancho */
     height: 2px; /* grosor */
+    background-color: var(--color-azul);
+
     position: absolute;
     bottom: 0px;
     /* left: 0px; */
@@ -164,7 +166,7 @@ width: 5%;
     
 
 #portada {
-    background-image: url("../img/logo/portada1.jpg");
+    background-image: url("../img/portada1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
@@ -176,14 +178,14 @@ width: 5%;
 
 #nosotros{
     text-align: center;
-    background-image: url(../img/logo/fondo1.jpg);
+    background-image: url(../imagenes/logo/fondo1.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 #productos{
     text-align: center;
-    background-image: url(../img/logo/fondo1.jpg);
+    background-image: url(../imagenes/logo/fondo1.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -247,7 +249,7 @@ width: 5%;
     text-decoration: none;
 }
 #barra-nosotros{
-background-image: url("../img/logo/2nosotros.jpg");
+background-image: url("../imagenes/logo/2nosotros.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -274,7 +276,7 @@ font-size: 90px;
 }
 
 #barra-servicios{
-    background-image: url("../img/logo/3servicios.jpg");
+    background-image: url("../imagenes/logo/3servicios.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -301,7 +303,7 @@ font-size: 90px;
 }
 
 #barra-portafolio{
-    background-image: url("../img/logo/4portafolio.jpg");
+    background-image: url("../imagenes/logo/4portafolio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -328,7 +330,7 @@ font-size: 90px;
 }
 
 #barra-contacto{
-    background-image: url("../img/logo/5contacto.jpg");
+    background-image: url("../imagenes/logo/5contacto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -494,7 +496,7 @@ font-size: 90px;
 .fondo {
 	width: 100%;
 	height: 500px;
-	background-image: url(../img/fondo2.png);
+	background-image: url(../imagenes/fondo2.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
