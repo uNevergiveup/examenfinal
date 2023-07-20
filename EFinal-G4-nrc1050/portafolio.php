@@ -113,8 +113,8 @@
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p7.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p7.png" alt="">
             <div class="portfolio-box-caption" style="color: black;" >
-              <div class="project-category" >HELADOS CON NUECES</div>
-              <div class="project-name">Revise nuestros sabores disponibles</div>
+              <div class="project-category" >COSECHA DE UVAS</div>
+              <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -123,8 +123,8 @@
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p1.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p1.png" alt="">
             <div class="portfolio-box-caption" style="color: black;" >
-                <div class="project-category">HELADOS CON PASAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+                <div class="project-category" >NUESTROS PIMIENTOS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -133,8 +133,8 @@
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p2.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p2.png" alt="">
             <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category">HELADOS CON ALGARROBINA</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+                <div class="project-category" >LOTE DE MANDARINAS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -143,8 +143,8 @@
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p5.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p5.png" alt="">
             <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON PECANAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+                <div class="project-category" >TEMPORADA DE MANGO</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -153,8 +153,8 @@
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p6.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p6.png" alt="">
             <div class="portfolio-box-caption"style="color: black;">
-                <div class="project-category"  >HELADOS CON CHOCOLATE</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+                <div class="project-category" >CACAO Y PECANAS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -162,9 +162,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p3.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p3.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >COSECHA DE FRESAS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -172,9 +172,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p4.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p4.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >NUESTROS AJÍES</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -182,9 +182,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p8.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p8.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >LOTES DE UVAS DULCES MORADAS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -192,9 +192,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p9.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p9.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >TENEMOS AL MEJOR PERSONAL</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -202,9 +202,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p10.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p10.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >NUESTROS VEGETALES MÁS VENDIDOS POR TEMPORADA</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -212,9 +212,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p11.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p11.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >HARINAS Y LEGUMBRES</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -222,9 +222,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p12.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p12.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >PECANAS, NUECES Y ALMENDRAS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -232,9 +232,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p13.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p13.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >CLIENTES SATISFECHOS</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -242,9 +242,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p14.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p14.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >LO MÁS VENDIDO DE LA TEMPORADA 2023</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>
@@ -252,9 +252,9 @@
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-box" href="imagenes/portfolio/fullsize/p15.png">
             <img class="img-fluid" src="imagenes/portfolio/thumbnails/p15.png" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
+            <div class="portfolio-box-caption"style="color: black;">
+                <div class="project-category" >LOTES DE ZANAHORIA Y CEBOLLA</div>
+                <div class="project-name">Revise nuestras productos orgánicos disponibles</div>
             </div>
           </a>
         </div>

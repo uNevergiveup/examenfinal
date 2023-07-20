@@ -63,7 +63,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
 
 
   <!-- Encabezado -->
@@ -291,68 +291,67 @@
 
 <!-- SECCION PRODUCTOS -->
   
-<section class="page-section" id="productos">
+<section class="productos page-section" id="productos">
     <div class="container">
 
-      <h2 class="text-center mt-0">Nuestros Productos</h2>
-      <hr class="divider my-4">
+    <h1 >Nuestros productos</h1><br>
       
       <div class="row pb-4">
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h1.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto1.jpg" alt="">
     
                     <div class="card-body">
-                        <h4 class="card-title">Helado de plátano</h4>
-                        <p>S/ 16.00 soles</p>
-                        <a href="#" class="btn btn-sm btn-primary" style="color: black;">Comprar</a>
-                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        <h4 class="card-title">Árandanos</h4>
+                        <p>S/ 12.00 soles (kg)</p>
+                        <a href="compra.php" class="btn btn-primary btn-sm js-scroll-trigger" style="background-color: #245501; color: white; border-color:#245501;"><i class="fa-solid fa-cart-shopping"></i>Comprar</a>
                     </div>
                 </div>
             </div>
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h2.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto2.jpg" alt="">
     
                     <div class="card-body">
-                        <h4 class="card-title">Helado de fresa</h4>
-                        <p>S/ 14.00 soles</p>
-                        <a href="#" class="btn btn-sm btn-primary" style="color: black;" >Comprar</a>
-                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        <h4 class="card-title">Fresa</h4>
+                        <p>S/ 11.00 soles (kg)</p>
+                        <a href="compra.php" class="btn btn-primary btn-sm js-scroll-trigger" style="background-color: #245501; color: white; border-color:#245501;"><i class="fa-solid fa-cart-shopping"></i>Comprar</a>
+                        
                     </div>
                 </div>
             </div>
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h3.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto11.jpg" alt="">
     
                     <div class="card-body">
-                        <h4 class="card-title">Helado de Lúcuma</h4>
-                        <p>S/ 16.00 soles</p>
-                        <a href="#" class="btn btn-sm btn-primary" style="color: black;">Comprar</a>
-                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        <h4 class="card-title">Melon</h4>
+                        <p>S/ 4.00 soles (kg)</p>
+                        <a href="compra.php" class="btn btn-primary btn-sm js-scroll-trigger" style="background-color: #245501; color: white; border-color:#245501;"><i class="fa-solid fa-cart-shopping"></i>Comprar</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h4.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto12.jpg" alt="">
     
                     <div class="card-body">
-                        <h4 class="card-title">Helado de coco</h4>
-                        <p>S/ 18.00 soles</p>
-                        <a href="#" class="btn btn-sm btn-primary" style="color: black;" >Comprar</a>
-                        <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        <h4 class="card-title">Palta</h4>
+                        <p>S/ 9.00 soles (kg)</p>
+                        <a href="compra.php" class="btn btn-primary btn-sm js-scroll-trigger" style="background-color: #245501; color: white; border-color:#245501;"><i class="fa-solid fa-cart-shopping"></i>Comprar</a>
                     </div>
                 </div>
             </div>
+
 
       </div>
-
+      <div class="servicio boton">
+        <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color: #245501; color: white" href="productos.php">Ver más</a>
+        </div>
     </div>
   </section>
 
@@ -361,219 +360,18 @@
 	
 </section>
 
-<!-- SECCION SERVICIOS -->
+<!-- SECCION contacto -->
   
-<section class="page-section" id="servicios">
+<section class="productos page-section" id="productos">
     <div class="container">
 
-      <h2 class="text-center mt-0">Nuestros servicios</h2>
-      <hr class="divider my-4">
-      
-      <div class="row">
-
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mt-5">
-            <i class="fa-4x bi bi-inbox-fill mb-4 " style="color: #f7f76f;"></i>
-            <h3 class="h4 mb-2">Catering</h3>
-            <p class="text-muted mb-0">Puedes consultar acerca de nuestros servicios de Catering</p>
-            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal">
-                Saber +
-            </button>
-            <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">CATERING</h5>
-                            <button class="close" data-dismiss="modal" aria-label="cerrar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h3>Eventos en los que participamos</h3>
-                            <br>
-                            <p>Baby Showers</p>
-                            <p>Bautizos</p>
-                            <p>Cumpleaños</p>
-                            <p>Bodas</p>
-                            <p>Aniversarios</p>
-                            <p>Fiestas temáticas</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>          
+    <h1 >Contáctanos</h1><br>
+        <h5>En Organic Ecotienda, creemos en una forma de vida más saludable y sostenible. </h5>
+        <img src="imagen/logo/flecha (1).png" alt="">
+      <br>
+      <div class="servicio boton">
+        <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color: #245501; color: white" href="contacto.php">Envíanos un mensaje!</a>
         </div>
-
-      <div class="col-md-6 col-lg-3 text-center">
-          <div class="mt-5">
-            <i class="fa-4x bi bi-megaphone-fill" style="color: #f7f76f;"></i>
-          
-            <h3 class="h4 mb-2">Eventos</h3>
-            <p class="text-muted mb-0">Te llevamos los más ricos helados a cualquier celebración</p>
-            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal1">
-                Saber +
-            </button>
-            <div class="modal fade" id="fm-modal1" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">EVENTOS</h5>
-                            <button class="close" data-dismiss="modal" aria-label="cerrar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h3>Zonas de Eventos</h3>
-                            <br>
-                            <p>Zona Lima Sur</p>
-                            <p>Zona Lima Norte</p>
-                            <p>Zona Lima Centro</p>
-                            <p>Zona Lima Este</p>
-                            <p>Zona Lima Oeste</p>
-                            <p>Otros</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>          
-        </div>
-
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mt-5">
-            <i class="fa-4x bi bi-shop mb-4 " style="color: #f7f76f;"></i>
-            <h3 class="h4 mb-2">Suministros</h3>
-            <p class="text-muted mb-0">Puede consultar por nuestros suministros semanales y mensuales</p>
-            
-            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal2">
-                Saber +
-            </button>
-            <div class="modal fade" id="fm-modal2" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">SUMINISTROS</h5>
-                            <button class="close" data-dismiss="modal" aria-label="cerrar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h3>Suministramos a...</h3>
-                            <br>
-                            <p>Pequeños emprendimientos</p>
-                            <p>Negocios de bodegas</p>
-                            <p>Tiendas departamentales</p>
-                            <p>Otros</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>          
-        </div>
-
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mt-5">
-            <i class=" fa-4x bi bi-telephone-inbound-fill mb-4" style="color: #f7f76f;"></i>
-        
-            <h3 class="h4 mb-2">Reservas</h3>
-            <p class="text-muted mb-0">Pueden reservar almuerzos y cenas corporaivas con nosotros</p>
-            <button class="btn btn-secondary mt-4" data-toggle="modal" data-target="#fm-modal3">
-                Saber +
-            </button>
-            <div class="modal fade" id="fm-modal3" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">RESERVAS</h5>
-                            <button class="close" data-dismiss="modal" aria-label="cerrar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <h3>Reservaciones</h3>
-                            <br>
-                            <p>Aceptamos reservaciones con 15 días de anticipación si son más de 15 personas. En caso sean menos de 15 personas pueden reservar hasta con 7 días de anicipación</p>
-                            <p>Sedes de reserva: Av. Benavides y Jesus María</p>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>          
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
- <!-- SECCION PORTAFOLIO -->
-
- <section id="portfolio">
-    <div class="container-fluid p-0">
-      
-      <div class="row no-gutters">
-        
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/1.jpeg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/1.jpeg" alt="">
-            <div class="portfolio-box-caption" style="color: black;" >
-              <div class="project-category" >HELADOS CON NUECES</div>
-              <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption" style="color: black;" >
-                <div class="project-category">HELADOS CON PASAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category">HELADOS CON ALGARROBINA</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/4.jpeg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/4.jpeg" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON PECANAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/5.jpeg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/5.jpeg" alt="">
-            <div class="portfolio-box-caption"style="color: black;">
-                <div class="project-category"  >HELADOS CON CHOCOLATE</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-box" href="imagenes/portfolio/fullsize/6.jpeg">
-            <img class="img-fluid" src="imagenes/portfolio/thumbnails/6.jpeg" alt="">
-            <div class="portfolio-box-caption" style="color: black;">
-                <div class="project-category"  >HELADOS CON GOMITAS</div>
-                <div class="project-name">Revise nuestros sabores disponibles</div>
-            </div>
-          </a>
-        </div>
-
-      </div>
     </div>
   </section>
 

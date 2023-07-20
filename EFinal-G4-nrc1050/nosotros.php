@@ -81,20 +81,25 @@
 <section class="page-section" id="nosotros">
     <div class="container">
         <h1>Nuestra historia</h1><br>
-        <p>En Organic Ecotienda, creemos en una forma de vida más saludable y sostenible. </p>
+        <h5>En Organic Ecotienda, creemos en una forma de vida más saludable y sostenible. </h5>
         <img src="../img/flecha (1).png" alt="">
-        <p>Nuestra pasión por los alimentos orgánicos y el respeto por la naturaleza nos impulsaron a fundar esta
-            tienda. Trabajamos directamente con agricultores locales y proveedores comprometidos con prácticas
-            ecológicas para ofrecerte los productos más frescos y nutritivos. Cada compra que haces en nuestra tienda es
-            una pequeña contribución a un planeta más verde y próspero.</p>
-        <div class="servicio boton">
-            <a href="nosotros.php" class="btn-nosotros">MAS SOBRE NOSOTROS <span></span></a>
-        </div>
+        <p>
+
+Organic Ecotienda es una empresa líder en el mercado de productos orgánicos, comprometida con el bienestar de las personas y el medio ambiente. Fundada con la visión de promover un estilo de vida saludable y sostenible, esta innovadora tienda se ha convertido en un referente para quienes buscan opciones naturales y libres de químicos nocivos.
+<br><br>
+Con una amplia gama de productos, que van desde alimentos frescos y cultivados de manera ecológica hasta cosméticos y productos de limpieza naturales, Organic Ecotienda ofrece a sus clientes una alternativa consciente y responsable. Su selección de productos ha sido cuidadosamente curada, asegurando la más alta calidad y certificaciones orgánicas.
+<br><br>
+Además de su compromiso con la calidad de los productos, Organic Ecotienda se destaca por su atención al cliente y el asesoramiento personalizado. Su equipo altamente capacitado está siempre dispuesto a brindar información sobre los beneficios de los productos y compartir consejos para llevar un estilo de vida más saludable.
+<br><br>
+Como empresa comprometida con la sostenibilidad, Organic Ecotienda también trabaja en estrecha colaboración con productores locales y apoya iniciativas ecológicas en la comunidad. Esto les permite ofrecer productos frescos y de temporada, al tiempo que fomenta la economía local y el desarrollo sostenible.
+<br><br>
+Organic Ecotienda es mucho más que una tienda; es un lugar donde la salud, la conciencia ambiental y el bienestar se unen para ofrecer una experiencia de compra única y enriquecedora. Si estás buscando una forma de llevar un estilo de vida más natural y respetuoso con el planeta, Organic Ecotienda es el destino ideal para tus necesidades orgánicas.</p>
+        
     </div>
 </section>
 
 <!--SECCION FONDO MOVIBLE-->
-<section class="fondo">
+<section class="fondo2">
 	
 </section>
 
@@ -126,14 +131,8 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h3>Eventos en los que participamos</h3>
-                            <br>
-                            <p>Baby Showers</p>
-                            <p>Bautizos</p>
-                            <p>Cumpleaños</p>
-                            <p>Bodas</p>
-                            <p>Aniversarios</p>
-                            <p>Fiestas temáticas</p>
+                            
+                            <p>Nuestra misión es promover un estilo de vida saludable y sostenible ofreciendo a nuestros clientes una amplia variedad de productos orgánicos de la más alta calidad. Buscamos ser líderes en la industria de productos naturales, brindando opciones conscientes y responsables que contribuyan al bienestar de las personas y al cuidado del medio ambiente.</p>
                         </div>
                     </div>
                 </div>
@@ -160,14 +159,8 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h3>Zonas de Eventos</h3>
-                            <br>
-                            <p>Zona Lima Sur</p>
-                            <p>Zona Lima Norte</p>
-                            <p>Zona Lima Centro</p>
-                            <p>Zona Lima Este</p>
-                            <p>Zona Lima Oeste</p>
-                            <p>Otros</p>
+                            
+                            <p>Nuestra visión es convertirnos en la tienda de referencia para quienes buscan productos orgánicos y sostenibles, creando un impacto positivo en la sociedad y el planeta. Aspiramos a fomentar una comunidad comprometida con un consumo consciente y responsable, donde la salud y la sostenibilidad sean pilares fundamentales de nuestro día a día.</p>
                         </div>
                     </div>
                 </div>
@@ -194,12 +187,12 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h3>Suministramos a...</h3>
-                            <br>
-                            <p>Pequeños emprendimientos</p>
-                            <p>Negocios de bodegas</p>
-                            <p>Tiendas departamentales</p>
-                            <p>Otros</p>
+                            
+                            <p>1. Sostenibilidad: Nos comprometemos a operar de manera responsable, minimizando nuestro impacto en el medio ambiente y fomentando prácticas sostenibles en todas nuestras operaciones.<br>
+                            2. Calidad: Seleccionamos cuidadosamente nuestros productos para garantizar que sean de origen orgánico y de la más alta calidad, brindando a nuestros clientes la confianza de que están adquiriendo lo mejor para su bienestar.<br>
+                            3. Salud y Bienestar: Promovemos un estilo de vida saludable y equilibrado, ofreciendo productos naturales y libres de químicos nocivos para mejorar la calidad de vida de nuestros clientes.<br>
+                            4. Transparencia: Nos esforzamos por ser transparentes en todas nuestras acciones y comunicaciones, proporcionando información clara y veraz sobre nuestros productos y prácticas. <br>
+                            5. Responsabilidad social: Contribuimos activamente al bienestar de la comunidad, apoyando iniciativas locales y promoviendo el desarrollo sostenible.</p>
                         </div>
                     </div>
                 </div>
@@ -226,10 +219,12 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h3>Reservaciones</h3>
-                            <br>
-                            <p>Aceptamos reservaciones con 15 días de anticipación si son más de 15 personas. En caso sean menos de 15 personas pueden reservar hasta con 7 días de anicipación</p>
-                            <p>Sedes de reserva: Av. Benavides y Jesus María</p>
+                            
+                            <p>1. Selección de productos: Nos comprometemos a ofrecer solo productos orgánicos y de origen ético, asegurándonos de que cumplan con los estándares de calidad y sostenibilidad establecidos. <br>
+                            2. Atención al cliente: Brindamos un servicio al cliente excepcional, ofreciendo asesoramiento experto y atención personalizada para satisfacer las necesidades y preferencias individuales de nuestros clientes.<br>
+                            3. Precios justos: Establecemos precios justos y competitivos en nuestros productos para que sean accesibles a un amplio espectro de consumidores comprometidos con la salud y el medio ambiente.<br>
+                            4. Sostenibilidad ambiental: Implementamos prácticas ecológicas en nuestras operaciones y buscamos constantemente reducir nuestro impacto ambiental y utilizar envases y materiales sostenibles.<br>
+                            5. Educación y concientización: Nos esforzamos por educar a nuestros clientes sobre los beneficios de los productos orgánicos y la importancia de un estilo de vida sostenible, fomentando así una comunidad consciente.</p>
                            
                         </div>
                     </div>

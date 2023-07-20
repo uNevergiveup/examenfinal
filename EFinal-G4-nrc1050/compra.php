@@ -67,18 +67,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!--CONTENIDO-->
 <section id="barra-servicios" class="espaciado">
         <div class="contenedor">

@@ -175,6 +175,12 @@ width: 5%;
     padding-bottom: 120px;
 }
 
+#about{
+    text-align: center;
+    background-image: url(../imagenes/portadaprin.png);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 #nosotros{
     text-align: center;
@@ -249,7 +255,7 @@ width: 5%;
     text-decoration: none;
 }
 #barra-nosotros{
-background-image: url("../imagenes/logo/2nosotros.jpg");
+background-image: url("../imagenes/portada4.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -276,7 +282,7 @@ font-size: 90px;
 }
 
 #barra-servicios{
-    background-image: url("../imagenes/logo/3servicios.jpg");
+    background-image: url("../imagenes/portada1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -303,7 +309,7 @@ font-size: 90px;
 }
 
 #barra-portafolio{
-    background-image: url("../imagenes/logo/4portafolio.jpg");
+    background-image: url("../imagenes/portada2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -330,7 +336,7 @@ font-size: 90px;
 }
 
 #barra-contacto{
-    background-image: url("../imagenes/logo/5contacto.jpg");
+    background-image: url("../imagenes/portada5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -496,7 +502,15 @@ font-size: 90px;
 .fondo {
 	width: 100%;
 	height: 500px;
-	background-image: url(../imagenes/fondo2.png);
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fondo2 {
+	width: 100%;
+	height: 500px;
+	background-image: url(../imagenes/fondo2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }

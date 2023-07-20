@@ -76,7 +76,7 @@
 
 
 <!--CONTENIDO-->
-<section id="barra-portafolio" class="espaciado">
+<section id="barra-servicios" class="espaciado">
         <div class="contenedor">
             <h1>Productos</h1>
             <p>
@@ -99,7 +99,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h1.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto1.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Árandanos</h4>
@@ -111,7 +111,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h2.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto2.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Fresa</h4>
@@ -124,7 +124,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h3.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto3.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Croissant</h4>
@@ -136,7 +136,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h4.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto4.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Zanahoria</h4>
@@ -148,7 +148,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h1.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto5.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Brocoli</h4>
@@ -160,7 +160,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h2.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto6.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Huevo de corral</h4>
@@ -172,7 +172,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h3.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto7.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Manzana verde</h4>
@@ -184,7 +184,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h4.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto8.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Granada</h4>
@@ -197,7 +197,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h1.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto9.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Baguette</h4>
@@ -209,7 +209,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h2.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto10.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Frambuesa</h4>
@@ -221,7 +221,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h3.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto11.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Melon</h4>
@@ -233,7 +233,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h4.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto12.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Palta</h4>
@@ -246,7 +246,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h1.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto13.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Tomate</h4>
@@ -258,7 +258,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h2.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto14.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Naranja</h4>
@@ -270,7 +270,7 @@
     
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h3.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto15.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Pimiento</h4>
@@ -282,7 +282,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card mt-4">
-                    <img class="card-img-top" src="imagenes/h4.jpg" alt="">
+                    <img class="card-img-top" src="imagenes/productos/producto16.jpg" alt="">
     
                     <div class="card-body">
                         <h4 class="card-title">Mango</h4>
