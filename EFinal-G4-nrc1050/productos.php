@@ -93,7 +93,7 @@
 
     <h1 >Nuestros productos</h1><br>
         <p>En Organic Ecotienda, creemos en una forma de vida más saludable y sostenible. </p>
-        <img src="../img/flecha (1).png" alt="">
+        <img src="imagenes/logo/flecha (1).png" alt="">
       
       <div class="row pb-4">
 
